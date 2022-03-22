@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#moldura {
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+    position: absolute;
+    left: 30vw;
+    top: 30vh;
+}
+.caixa {
+    width: 15vw;
+    height: 15vh;
+    position: fixed;
+    left: 43vw;
+    top: 35vh;
+
+}
+
+#caixa1 {
+    border: 2px solid red;
+    color: red;
+}
+#caixa2 {
+    border: 2px solid lightgreen;
+    color: lightgreen;
+}
+#caixa3 {
+    border: 2px solid blue;
+    color: blue;
+}
+#caixa4 {
+    border: 2px solid rgb(212, 1, 212);
+    color: rgb(212, 1, 212);
+}
+
+#boxbotao {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 32vw;
+    top: 42vh;
+}
